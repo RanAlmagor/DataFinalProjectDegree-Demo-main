@@ -1,6 +1,10 @@
-<div align="center">
-
-<img src="assets/readmission-hero.png" alt="Hospital readmission prediction — clinical data, patient journey, and predictive modeling" width="100%" />
+div align="center">
+  <img
+    src="assets/readmission-hero.png"
+    alt="Hospital Readmission Prediction"
+    width="420"
+  />
+</div>
 
 <br />
 
