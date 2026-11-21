@@ -4,7 +4,7 @@ div align="center">
     alt="Hospital Readmission Prediction"
     width="420"
   />
-</div>
+
 
 <br />
 
