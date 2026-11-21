@@ -1,31 +1,33 @@
-div align="center">
-  <img
-    src="assets/readmission-hero.png"
-    alt="Hospital Readmission Prediction"
-    width="420"
-  />
+<p align="center">
+  <img src="assets/readmission-hero.png" alt="Hospital readmission prediction — machine learning research" width="420" />
+</p>
 
+<h1 align="center">Predicting Hospital Readmissions</h1>
 
-<br />
+<h3 align="center">Machine Learning · Clinical NLP · Statistical Research</h3>
 
-# Predicting Hospital Readmissions
+<p align="center">
+  <strong>Can we identify patterns associated with a patient's return to the hospital?</strong>
+</p>
 
-### Machine Learning · Clinical NLP · Statistical Research
+<p align="center">
+  An academic research project exploring hospital readmission prediction through<br>
+  data analysis, classification experiments, and BERT-based clinical text processing.
+</p>
 
-**Can we identify patterns associated with a patient's return to the hospital?**  
-An academic machine learning project exploring hospital readmission prediction through data analysis, classification experiments, and BERT-based processing of clinical text.
+<p align="center">
+  <img alt="Python 3.8+" src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="Jupyter Notebooks" src="https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+  <img alt="Machine Learning" src="https://img.shields.io/badge/Machine-Learning-176B8A?style=flat-square" />
+  <img alt="Clinical NLP — BERT" src="https://img.shields.io/badge/Clinical_NLP-BERT-7147A5?style=flat-square" />
+  <img alt="Academic Research" src="https://img.shields.io/badge/Project-Academic_Research-2F855A?style=flat-square" />
+</p>
 
-<br />
-
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine-Learning-176B8A?style=flat-square)
-![NLP](https://img.shields.io/badge/Clinical_NLP-BERT-7147A5?style=flat-square)
-![Status](https://img.shields.io/badge/Project-Academic_Research-2F855A?style=flat-square)
-
-**[Explore the notebooks](notebooks/)** · **[Model experiments](models/)** · **[Scientific paper & poster](Scientific_Article_and_Poster/)**
-
-</div>
+<p align="center">
+  <a href="notebooks/">Explore the notebooks</a> ·
+  <a href="models/">Model experiments</a> ·
+  <a href="Scientific_Article_and_Poster/">Scientific paper &amp; poster</a>
+</p>
 
 ---
 
@@ -42,22 +44,16 @@ This project investigates that challenge using machine learning experiments, sta
 <table>
 <tr>
 <td width="33%" valign="top">
-
-### 🧠 Clinical NLP
-Experiments with **BERT** for analyzing admission and discharge text from clinical records.
-
+<h3>🧠 Clinical NLP</h3>
+<p>Experiments with <strong>BERT</strong> for analyzing admission and discharge text from clinical records.</p>
 </td>
 <td width="33%" valign="top">
-
-### 📊 Statistical analysis
-Notebooks, statistical tests, and visualizations for studying the available research results.
-
+<h3>📊 Statistical analysis</h3>
+<p>Notebooks, statistical tests, and visualizations for studying research results.</p>
 </td>
 <td width="33%" valign="top">
-
-### 🔬 ML experimentation
-Model training artifacts, evaluation outputs, logs, and classification reports.
-
+<h3>🔬 ML experimentation</h3>
+<p>Model training artifacts, evaluation outputs, logs, and classification reports.</p>
 </td>
 </tr>
 </table>
@@ -68,15 +64,15 @@ Model training artifacts, evaluation outputs, logs, and classification reports.
 flowchart LR
     A[Clinical research data] --> B[Exploration & analysis]
     B --> C[Statistical tests]
-    B --> D[Machine-learning experiments]
+    B --> D[Machine learning experiments]
     E[Clinical admission & discharge text] --> F[BERT-based NLP]
     C --> G[Research findings]
     D --> G
     F --> G
-    G --> H[Paper · Poster · Presentation]
+    G --> H[Paper, poster & presentation]
 ```
 
-*This diagram summarizes the repository's research areas; it is not a claim that every notebook runs in one automated pipeline.*
+*This diagram summarizes the repository's research areas; it does not imply that every notebook runs as a single automated pipeline.*
 
 ## Repository guide
 
@@ -94,16 +90,16 @@ flowchart LR
 
 ### Requirements
 
-- Python **3.8 or newer**
+- Python **3.8 or newer** (subject to the actual dependencies in `requirements.txt`)
 - Jupyter Notebook
 - Packages listed in `requirements.txt`
 
 ### Setup
 
 ```bash
-# Clone the personal portfolio repository after it has been published
- git clone https://github.com/RanAlmagor/Hospital-Readmission-Prediction.git
- cd Hospital-Readmission-Prediction
+# Clone this repository
+git clone https://github.com/RanAlmagor/DataFinalProjectDegree-Demo-main.git
+cd DataFinalProjectDegree-Demo-main
 
 # Optional: create an isolated environment
 python -m venv .venv
@@ -121,25 +117,25 @@ jupyter notebook
 
 Browse the notebooks in `notebooks/`, `NLP/`, or `models/` to explore the relevant analyses and experiments.
 
-**Important:** The public version does not distribute confidential patient-level data. Some notebooks or training steps may require separately authorized data access or supporting files and might not run end-to-end with the public repository alone.
+**Important:** The public version does not distribute confidential patient-level data. Some notebooks or training steps may require separately authorized data access or supporting files and might not run end-to-end from the public repository alone.
 
 ## Research outputs
 
-This repository contains supporting material for the academic study:
+The repository contains supporting material for the academic study:
 
 - **Analysis notebooks** — exploration, modeling, and statistical investigation.
 - **Training and evaluation artifacts** — experiment outputs and classification reports.
 - **Research presentation** — summary of the project and its findings.
 - **Scientific article and poster** — written and visual communication of the research.
 
-To assess the actual model performance, consult the **classification reports and research artifacts** in the repository. Performance numbers are intentionally not quoted here until their final versions have been verified.
+To assess actual model performance, consult the **classification reports and research artifacts** in the repository. Performance numbers are intentionally not quoted here until their final versions have been verified.
 
 ## Data privacy and responsible use
 
 Patient confidentiality is essential. **Sensitive medical records and identifiable patient data are excluded** from the public demonstration.
 
 - Do not commit patient records, credentials, or protected clinical files.
-- Obtain permission before accessing any restricted dataset.
+- Obtain permission before accessing restricted datasets.
 - Treat findings as academic research, not clinical recommendations.
 
 ## About this portfolio
@@ -147,10 +143,10 @@ Patient confidentiality is essential. **Sensitive medical records and identifiab
 **Ran Almagor** · B.Sc. in Computer Science  
 [GitHub profile](https://github.com/RanAlmagor)
 
+This portfolio repository highlights my work within a collaborative academic research project. Contributions are preserved in the repository history and associated research materials.
+
 ---
 
-<div align="center">
-
-<sub>Exploring how machine learning and clinical text analysis can advance research into hospital readmission risk.</sub>
-
-</div>
+<p align="center">
+  <sub>Exploring how machine learning and clinical text analysis can advance research into hospital readmission risk.</sub>
+</p>
