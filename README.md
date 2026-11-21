@@ -143,10 +143,6 @@ Patient confidentiality is essential. **Sensitive medical records and identifiab
 **Ran Almagor** · B.Sc. in Computer Science  
 [GitHub profile](https://github.com/RanAlmagor)
 
-This is my personal portfolio presentation of an academic capstone project to which I made substantial technical contributions. **The original academic project was collaborative**; its original research authorship and contributor history should remain preserved in the underlying artifacts and Git history.
-
-The public demo from which this portfolio version originates is available [here](https://github.com/ReutTamam/DataFinalProjectDegree-Demo).
-
 ---
 
 <div align="center">
